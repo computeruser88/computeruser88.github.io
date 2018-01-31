@@ -70,6 +70,7 @@ aside {
 }
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
     background: #ffffff;
     color: #4aaaa5;
     font-size: 24px;
@@ -79,6 +80,7 @@ h2 {
 }
 h3 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
     background: #ffffff;
     color: #4aaaa5;
     font-size: 18px;
