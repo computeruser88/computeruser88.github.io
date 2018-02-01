@@ -19,8 +19,8 @@ header h1 {
     position: fixed;
     top: -20px;
     margin-left: 19%;
-    line-height: 70px;
-    height: 50px;
+    line-height: 37px;
+    height: 35px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
     padding: 20px;
@@ -149,15 +149,16 @@ form input[type=submit]:hover {
     border: 1px #dddddd outset;
 }
 figure {
-    opacity: 1.0;
+    position: relative;
+    display: inline;
+    margin: auto;
     transition-duration: 0.4s;
 }
 figure img {
     position: relative;
-    margin: 0 20px 0 20px;
+    margin: 20px;
     top: 0; 
-    max-height: 185px;
-    max-width: auto;
+    height: 185px;
     z-index: 1;
 }
 figcaption {
@@ -165,10 +166,9 @@ figcaption {
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
     position: relative;
-    bottom: 80px;
+    bottom: 100px;
     height: 50px;
-    position: relative; 
-    width: 277.75px;
+    width: 277.5px;
     text-align: center;
     margin: 20px;
     line-height: 300%;
@@ -178,7 +178,7 @@ figcaption {
 }
 figure:hover {
     opacity: 0.7;
-    transform: scale(1.01);
+    transform: scale(1.1);
 }
 .container {  
     background: #ffffff;
