@@ -18,9 +18,9 @@ header {
 header h1 {
     position: fixed;
     top: -20px;
-    margin-left: 13%;
-    line-height: 150%;
-    height: 34px;
+    margin-left: 19%;
+    line-height: 70px;
+    height: 50px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
     padding: 20px;
@@ -31,8 +31,8 @@ header h1 {
 }
 header nav {
     display: inline;
-    right: 0;
-    padding: 0 15%;
+    margin-right: 20%;
+    padding: 0;
     font-size: 14px;
     line-height: 500%;
     float: right;
@@ -47,12 +47,10 @@ header nav a:hover {
     font-size: 15px;
 }
 article {
-    position: relative;
     display: inline;    
     width: 650px;
-    margin-top: 10%;
-    margin-left: 0%;
     float: left;
+    margin: 10% 0%;
     background: #ffffff;
     border: 1px #dddddd solid;
 }
@@ -110,10 +108,7 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    position: absolute;
-    left: 20px;
-    right: 20px;
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
     }
 form {
@@ -147,23 +142,25 @@ form input[type=submit]{
     border: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    transition-duration: 0.4s;
 }
-#portfolio img {
+form input[type=submit]:hover {
+    opacity: 0.7;
+    border: 1px #dddddd outset;
+}
+figure {
+    opacity: 1.0;
+    transition-duration: 0.4s;
+}
+figure img {
     position: relative;
     margin: 0 20px 0 20px;
     top: 0; 
     max-height: 185px;
     max-width: auto;
     z-index: 1;
-    border: 1px #ccc solid;
-    opacity: 1.0;
-    transition-duration: 0.4s;
 }
-#portfolio img:hover {
-    opacity: 0.7;
-    border: 2px #dddddd inset;
-}
-#portfolio h4 {
+figcaption {
     background: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
     color: #ffffff;
@@ -171,14 +168,17 @@ form input[type=submit]{
     bottom: 80px;
     height: 50px;
     position: relative; 
-    width: 86.9%;
+    width: 277.75px;
     text-align: center;
     margin: 20px;
     line-height: 300%;
     left: 0;
     right: 0;
     z-index: 2;
-    transition-duration: 0.4s;
+}
+figure:hover {
+    opacity: 0.7;
+    transform: scale(1.01);
 }
 .container {  
     background: #ffffff;
