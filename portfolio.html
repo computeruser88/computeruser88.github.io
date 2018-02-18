@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Jan Balangue | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Jan Balangue | Portfolio</title>
 </head>
+
 <body>
-    <div class="container">
-        <header class="clear">
-            <h1>Jan Balangue</h1>
-            <nav>
-                <a href="index.html">About</a> |
-                <a>Portfolio</a> |
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
-        <article>
-            <h2>Portfolio</h2><br>
-            <hr><br>
-            <table id="portfolio" style: width="100%">
-                <tr>
-                    <td><a target="_blank"><figure><img src="./assets/images/headphones.jpg" alt="headphones"><figcaption>Hangman</figcaption></figure></a></td>
-                    <td><a target="_blank"><figure><img src="./assets/images/laptop.jpg" alt="laptop"><figcaption>RPG Game</figcaption></figure></a></td>
-                </tr>
-                <tr>
-                    <td><a target="_blank"><figure><img src="./assets/images/office.jpg" alt="office"><figcaption>Trivia Game</figcaption></figure></a></td>
-                    <td><a target="_blank"><figure><img src="./assets/images/purplelambo.jpg" alt="purple Lamborghini"><figcaption>Rutgers Info Widget</figcaption></figure></a></td>
-                </tr>
-                <tr><td><a target="_blank"><figure><img src="./assets/images/tv.jpg" alt="tv"><figcaption>Rock Paper Scissors</figcaption></figure></a></td></tr>
-            </table>
-        </article>
-        <aside>
-            <h3>Connect With Me</h3><br>
-            <hr>
-            <br>
-            <a href="https://github.com/computeruser88" target="_blank"><img src="assets/images/github.png" class="social-media-link" alt="GitHub"></a>
-            <a href="https://www.linkedin.com/in/jan-balangue-8b544b76" target="_blank"><img src="assets/images/linkedin.png" class="social-media-link" alt="LinkedIn"></a>
-            <a href="https://stackoverflow.com/users/8139702/jan-balangue" target="_blank"><img src="assets/images/stackoverflow.png" class="social-media-link2" alt="StackOverflow"></a>
-        </aside>
-        <footer class="clear">&#xa9; Copyright 2018 Jan Balangue</footer>
+    <nav class="navbar navbar-light container">
+        <div class="justify-content-end">
+            <a class="navbar-brand">Jan Balangue</a>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./index.html">About</a>
+                <a class="nav-item nav-link">Portfolio</a>
+                <a class="nav-item nav-link" href="./contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-12 col-lg-9">
+            <div class="card">
+                <div class="card-block">
+                    <h4 class="card-title">Portfolio</h4>
+                    <hr>
+                    <a href="https://computeruser88.github.io/Hangman/">
+                    <figure class="figure">
+                        <img src="./assets/images/hangman-screenshot.jpg" alt="hangman" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption">Hangman</figcaption>
+                    </figure>
+                    </a>
+                    <figure class="figure">
+                        <img src="./assets/images/laptop.jpg" alt="laptop" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption">RPG Game</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./assets/images/office.jpg" alt="office" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption">Trivia Game</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./assets/images/purplelambo.jpg" alt="purple Lamborghini" class="figure-img img-fluid rounded">
+                        <figcaption class="figure-caption">Rutgers Info Widget</figcaption>
+                    </figure>
+                    <figure class="figure">
+                        <img src="./assets/images/tv.jpg" class="figure-img img-fluid rounded" alt="">
+                        <figcaption class="figure-caption">Rock Paper Scissors</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+            <div class="card">
+                <div class="card-block">
+                    <h4 class="card-title">Connect With Me</h4>
+                    <hr>
+                    <a href="https://github.com/computeruser88" class="card-link" target="_blank">
+                        <img src="assets/images/github.png" class="social-media-link" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jan-balangue-8b544b76" class="card-link" target="_blank">
+                        <img src="assets/images/linkedin.png" class="social-media-link" alt="LinkedIn">
+                    </a>
+                    <a href="https://stackoverflow.com/users/8139702/jan-balangue" class="card-link" target="_blank">
+                        <img src="assets/images/stackoverflow.png" class="social-media-link2" alt="StackOverflow">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright navbar-fixed-bottom text-center">
+        <div class="container">
+            <span>
+                © Copyright 2018 Jan Balangue
+            </span>
+        </div>
     </div>
 </body>
+
 </html>

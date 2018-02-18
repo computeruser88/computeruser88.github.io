@@ -1,44 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Jan Balangue | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Jan Balangue | Contact</title>
 </head>
+
 <body>
-    <div class="container">
-        <header class="clear">
-            <h1>Jan Balangue</h1>
-            <nav>
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
-                <a>Contact</a>
-            </nav>
-        </header>
-        <article>
-            <h2>Contact</h2><br>
-            <hr>
-            <br>
-            <form>
-                <label>Name</label><br>
-                <input type="text" name="Name" placeholder="John Smith"><br>
-                <label>Email</label><br>
-                <input type="text" name="Email" placeholder="example@gmail.com"><br>
-                <label>Message</label><br>
-                <textarea class="longinput" col="80" rows="10"></textarea><br>
-                <input type="submit" value="Submit">
-            </form>
-        </article>
-        <aside>
-            <h3>Connect With Me</h3><br>
-            <hr>
-            <br>
-            <a href="https://github.com/computeruser88" target="_blank"><img src="assets/images/github.png" class="social-media-link" alt="GitHub"></a>
-            <a href="https://www.linkedin.com/in/jan-balangue-8b544b76" target="_blank"><img src="assets/images/linkedin.png" class="social-media-link" alt="LinkedIn"></a>
-            <a href="https://stackoverflow.com/users/8139702/jan-balangue" target="_blank"><img src="assets/images/stackoverflow.png" class="social-media-link2" alt="StackOverflow"></a>
-        </aside>
-        <footer class="clear">&#xa9; Copyright 2018 Jan Balangue</footer>
+    <nav class="navbar navbar-light container">
+        <div class="justify-content-end">
+            <a class="navbar-brand">Jan Balangue</a>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="./index.html">About</a>
+                <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-12 col-lg-9">
+            <div class="card">
+                <div class="card-block">
+                    <h4 class="card-title">Contact</h4>
+                    <hr>
+                    <form>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="John Smith">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="text" class="form-control" placeholder="example@gmail.com">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="form-control" id="exampleTextarea" rows="8"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" value="Email This Form">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12 col-lg-3">
+            <div class="card">
+                <div class="card-block">
+                    <h4 class="card-title">Connect With Me</h4>
+                    <hr>
+                    <a href="https://github.com/computeruser88" class="card-link" target="_blank">
+                        <img src="assets/images/github.png" class="social-media-link" alt="GitHub">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jan-balangue-8b544b76" class="card-link" target="_blank">
+                        <img src="assets/images/linkedin.png" class="social-media-link" alt="LinkedIn">
+                    </a>
+                    <a href="https://stackoverflow.com/users/8139702/jan-balangue" class="card-link" target="_blank">
+                        <img src="assets/images/stackoverflow.png" class="social-media-link2" alt="StackOverflow">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright navbar-fixed-bottom text-center">
+            <div class="container">
+                <span>
+                    © Copyright 2018 Jan Balangue
+                </span>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>

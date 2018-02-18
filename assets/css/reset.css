@@ -1,36 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Jan Balangue | Home</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-</head>
-<body>
-<div class="container">
-    <header class="clear">
-        <h1>Jan Balangue</h1>
-        <nav>
-            <a>About</a> |
-            <a href="portfolio.html">Portfolio</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <article id="bio">
-        <h2>About Me</h2>
-        <br><hr><br>
-        <img id="bio-image" src="assets/images/selfie2018.png" width="200px" height="auto" alt="Jan Balangue">
-        <p>A customer service worker by necessity, I am a graduate of Penn State University with a Master's Degree in Software Engineering. Currently I attend the Coding Boot Camp at UCSD Extension with aspirations of becoming a web developer.</p><p>In my spare time I have competed in the USAPL as a Masters 1 powerlifter and twice won second place in the California State Games: as a 74kg lifter in 2015, and as an 83kg lifter in 2016. I have a passion for many musical genres and also dabbled in amateur music creation when I was younger.</p>
-    </article>
-    <aside>
-        <h3>Connect With Me</h3><br>
-        <hr>
-        <br>
-        <a href="https://github.com/computeruser88" target="_blank"><img src="assets/images/github.png" class="social-media-link" alt="GitHub"></a>
-        <a href="https://www.linkedin.com/in/jan-balangue-8b544b76" target="_blank"><img src="assets/images/linkedin.png" class="social-media-link" alt="LinkedIn"></a>
-        <a href="https://stackoverflow.com/users/8139702/jan-balangue" target="_blank"><img src="assets/images/stackoverflow.png" class="social-media-link2" alt="StackOverflow"></a>
-    </aside>
-    <footer class="clear">&#xa9; Copyright 2018 Jan Balangue</footer>
-</div>
-</body>
-</html>
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
