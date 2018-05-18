@@ -1,111 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <title>Jan Balangue | Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jan Balangue | My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light container">
-        <div class="justify-content-end">
-            <a class="navbar-brand">Jan Balangue</a>
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="./index.html">About</a>
-                <a class="nav-item nav-link">Portfolio</a>
-                <a class="nav-item nav-link" href="./contact.html">Contact</a>
+    <section class="hero is-primary content">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    I'm Jan Balangue.
+                </h1>
+                <h2 class="subtitle">
+                    Here is my project portfolio.
+                </h2>
+                <figure class="image is-128x128 selfie">
+                    <img src="./assets/img/selfie2-2018.jpg" alt="Jan Balangue">
+                </figure>
             </div>
         </div>
-    </nav>
-    <div class="row">
-        <div class="col-md-12 col-lg-9">
-            <div class="card">
-                <div class="card-block">
-                    <h4 class="card-title">Portfolio</h4>
-                    <hr>
-                    <a href="https://computeruser88.github.io/Hangman/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/hangman-screenshot.jpg" alt="hangman" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption">Hangman</figcaption>
+    </section>
+
+    <div class="columns">
+        <div class="column project-column">
+            <a href="https://computeruser88.github.io/Hangman" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/hangman-screenshot.jpg" alt="Hangman - Classical Edition">
                         </figure>
-                    </a>
-                    <a href="https://computeruser88.github.io/week-4-game/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/crystals-collector-game.JPG" alt="crystals collector game" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption">Crystals Collector Game</figcaption>
-                        </figure>
-                    </a>
-                    <a href="https://computeruser88.github.io/TriviaGame/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/trivia-game.JPG" alt="trivia game" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption">Trivia Game</figcaption>
-                        </figure>
-                    </a>
-                    <a href="https://computeruser88.github.io/GifTastic/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/giftastic-2.JPG" alt="giftastic" class="figure-img img-fluid rounded">
-                            <figcaption class="figure-caption">GifTastic</figcaption>
-                        </figure>
-                    </a>
-                    <a href="https://computeruser88.github.io/LIRI/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/LIRI.JPG" class="figure-img img-fluid rounded" alt="LIRI">
-                            <figcaption class="figure-caption">LIRI Bot</figcaption>
-                        </figure>
-                    </a>
-                    <a href="https://computeruser88.github.io/bamazon/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/bamazon.JPG" class="figure-img img-fluid rounded" alt="Bamazon">
-                            <figcaption class="figure-caption">Bamazon</figcaption>
-                        </figure>
-                    </a>
-                    <a href="https://guarded-earth-84333.herokuapp.com/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/FriendFinder.JPG" class="figure-img img-fluid rounded" alt="FriendFinder">
-                            <figcaption class="figure-caption">Friend Finder</figcaption>
-                        </figure>
-                    </a>
-                    <a href="https://frozen-badlands-68617.herokuapp.com/" target="_blank">
-                        <figure class="figure">
-                            <img src="./assets/images/burgerlogger.JPG" class="figure-img img-fluid rounded" alt="Burger Logger">
-                            <figcaption class="figure-caption">Burger Logger</figcaption>
-                        </figure>
-                    </a>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Hangman</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>A music-themed hangman game</li>
+                                <li>HTML5, CSS3, jQuery, Bootstrap, JSON</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
-        <div class="col-md-12 col-lg-3">
-            <div class="card">
-                <div class="card-block">
-                    <h4 class="card-title">Connect With Me</h4>
-                    <hr>
-                    <a href="https://github.com/computeruser88" class="card-link" target="_blank">
-                        <img src="assets/images/github.png" class="social-media-link" alt="GitHub">
-                    </a>
-                    <a href="https://www.linkedin.com/in/jan-balangue-8b544b76" class="card-link" target="_blank">
-                        <img src="assets/images/linkedin.png" class="social-media-link" alt="LinkedIn">
-                    </a>
-                    <a href="https://stackoverflow.com/users/8139702/jan-balangue" class="card-link" target="_blank">
-                        <img src="assets/images/stackoverflow.png" class="social-media-link2" alt="StackOverflow">
-                    </a>
+        <div class="column project-column">
+            <a href="https://computeruser88.github.io/week-4-game" class="project" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/crystals-collector-2.jpg" alt="Crystals Collector">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Crystals Collector Game</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>A random number game</li>
+                                <li>HTML5, CSS3, JavaScript, jQuery</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </a>
+        </div>
+        <div class="column project-column">
+            <a href="http://computeruser88.github.io/TriviaGame" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/trivia-game.JPG" alt="Human Body Trivia Game">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Human Body Trivia Game</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>A timed trivia game</li>
+                                <li>HTML5, CSS3, JavaScript, jQuery</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="column project-column">
+            <a href="https://computeruser88.github.io/GifTastic" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/giftastic-2.JPG" alt="GifTastic">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">GifTastic</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>HTML, jQuery, Media Queries, Ajax</li>
+                                <li>APIs: Giphy, OMDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
-    <div class="footer-copyright navbar-fixed-bottom text-center">
-        <div class="container">
-            <span>
-                © Copyright 2018 Jan Balangue
-            </span>
+    <div class="columns">
+        <div class="column project-column">
+            <a href="https://computeruser88.github.io/LIRI" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/LIRI.JPG" alt="LIRI">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">LIRI</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>Technologies: Node.js, JavaScript, Ajax</li>
+                                <li>APIs: Twitter, OMDB, Spotify</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="column project-column">
+            <a href="https://computeruser88.github.io/bamazon" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/bamazon.JPG" alt="Bamazon">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Bamazon</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>Technologies: Node.js, MySQL</li>
+                                <li>NPM Packages: mysql, inquirer</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="column project-column">
+            <a href="https://guarded-earth-84333.herokuapp.com/" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/FriendFinder.JPG" alt="Friend Finder">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Friend Finder</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>Node.js, HTML, Bootstrap, Heroku</li>
+                                <li>NPM: Express, Path, Body-parser</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="column project-column">
+            <a href="https://frozen-badlands-68617.herokuapp.com/" target="_blank">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="./assets/img/burgerlogger.JPG" alt="Burger Logger">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">Burger Logger</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <ul>
+                                <li>MVC, Node.js, SQL, Heroku, Ajax</li>
+                                <li>NPM Packages: Express, Handlebars</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </a>
         </div>
     </div>
+
+    <footer class="footer has-text-centered is-fixed-bottom">
+        <h4 class="title is-4 has-text-primary">You've gotten this far. Connect with me!</h4>
+        <a href="https://github.com/computeruser88" target="_blank">
+            <img src="./assets/img/github.png" class="footer-image" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/jan-balangue" target="_blank">
+            <img src="./assets/img/linkedin.png" class="footer-image" alt="LinkedIn">
+        </a>
+        <a href="https://stackoverflow.com/users/8139702/jan-balangue" target="_blank">
+            <img src="./assets/img/stackoverflow.png" class="footer-image-2" alt="StackOverflow">
+        </a>
+        <br>
+        <p class="has-text-primary">&copy; 2018 Jan Balangue</p>
+        <a href="./index.html">
+            <p class="has-text-primary" id="main-link">
+                <strong>Back to main page</strong>
+            </p>
+        </a>
+    </footer>
 </body>
 
 </html>
