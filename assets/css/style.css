@@ -1,7 +1,7 @@
 .selfie {
     float: right;
-    height: 192px;
-    width: 192px;
+    height: 160px;
+    width: 160px;
     transition-duration: 0.4s;
 }
 .selfie:hover {
