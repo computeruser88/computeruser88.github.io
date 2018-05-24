@@ -35,6 +35,7 @@
 }
 
 #main-link,
+#resume-link,
 #email-link,
 #portfolio-link,
 #portfolio-link-2 {
@@ -42,6 +43,7 @@
 }
 
 #main-link:hover,
+#resume-link:hover,
 #email-link:hover,
 #portfolio-link:hover,
 #portfolio-link-2:hover {
