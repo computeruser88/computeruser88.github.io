@@ -1,7 +1,7 @@
 .selfie {
     float: right;
-    height: 140px;
-    width: 140px;
+    height: 224px;
+    width: 224px;
     transition-duration: 0.4s;
 }
 .selfie:hover {
@@ -48,4 +48,11 @@
 #portfolio-link:hover,
 #portfolio-link-2:hover {
     transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    .selfie {
+        width: 128px;
+        height: 128px;  
+    }
 }
